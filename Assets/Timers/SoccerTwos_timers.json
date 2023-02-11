@@ -1,1 +1,83 @@
-{"count":1,"self":166.63463679999998,"total":184.0505173,"children":{"InitializeActuators":{"count":12,"self":0.006527,"total":0.006527,"children":null},"InitializeSensors":{"count":12,"self":0.0105163,"total":0.0105163,"children":null},"AgentSendState":{"count":8869,"self":2.5578316,"total":2.8577969,"children":{"CollectObservations":{"count":21288,"self":0.0276613,"total":0.0276613,"children":null},"WriteActionMask":{"count":21288,"self":0.0346843,"total":0.0346843,"children":null},"RequestDecision":{"count":21288,"self":0.2376196,"total":0.2376196,"children":null}}},"DecideAction":{"count":8869,"self":13.3660696,"total":13.7009913,"children":{"RayPerceptionSensor.Perceive":{"count":42576,"self":0.3349214,"total":0.3349214,"children":null}}},"AgentAct":{"count":8869,"self":0.8390502,"total":0.8390502,"children":null}},"gauges":{"SoccerTwos.CumulativeReward":{"count":68,"max":0,"min":0,"runningAverage":0,"value":0,"weightedAverage":0}},"metadata":{"timer_format_version":"0.1.0","start_time_seconds":"1673329203","unity_version":"2021.2.16f1","command_line_arguments":"C:\\Program Files\\Unity\\Hub\\Editor\\2021.2.16f1\\Editor\\Unity.exe -projectpath C:\\Users\\yuta04\\ML-Agents\\Soccer -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-yuta04 -hubSessionId 551773b0-90a4-11ed-aaa9-e3f1f22369b9","communication_protocol_version":"1.5.0","com.unity.ml-agents_version":"2.2.1-exp.1","scene_name":"SoccerTwos","end_time_seconds":"1673329387"}}
+{
+	"count": 1,
+	"self": 166.63463679999998,
+	"total": 184.0505173,
+	"children": {
+		"InitializeActuators": {
+			"count": 12,
+			"self": 0.006527,
+			"total": 0.006527,
+			"children": null
+		},
+		"InitializeSensors": {
+			"count": 12,
+			"self": 0.0105163,
+			"total": 0.0105163,
+			"children": null
+		},
+		"AgentSendState": {
+			"count": 8869,
+			"self": 2.5578316,
+			"total": 2.8577969,
+			"children": {
+				"CollectObservations": {
+					"count": 21288,
+					"self": 0.0276613,
+					"total": 0.0276613,
+					"children": null
+				},
+				"WriteActionMask": {
+					"count": 21288,
+					"self": 0.0346843,
+					"total": 0.0346843,
+					"children": null
+				},
+				"RequestDecision": {
+					"count": 21288,
+					"self": 0.2376196,
+					"total": 0.2376196,
+					"children": null
+				}
+			}
+		},
+		"DecideAction": {
+			"count": 8869,
+			"self": 13.3660696,
+			"total": 13.7009913,
+			"children": {
+				"RayPerceptionSensor.Perceive": {
+					"count": 42576,
+					"self": 0.3349214,
+					"total": 0.3349214,
+					"children": null
+				}
+			}
+		},
+		"AgentAct": {
+			"count": 8869,
+			"self": 0.8390502,
+			"total": 0.8390502,
+			"children": null
+		}
+	},
+	"gauges": {
+		"SoccerTwos.CumulativeReward": {
+			"count": 68,
+			"max": 0,
+			"min": 0,
+			"runningAverage": 0,
+			"value": 0,
+			"weightedAverage": 0
+		}
+	},
+	"metadata": {
+		"timer_format_version": "0.1.0",
+		"start_time_seconds": "1673329203",
+		"unity_version": "2021.2.16f1",
+		"command_line_arguments": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.2.16f1\\Editor\\Unity.exe -projectpath C:\\Users\\yuta04\\ML-Agents\\Soccer -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-yuta04 -hubSessionId 551773b0-90a4-11ed-aaa9-e3f1f22369b9",
+		"communication_protocol_version": "1.5.0",
+		"com.unity.ml-agents_version": "2.2.1-exp.1",
+		"scene_name": "SoccerTwos",
+		"end_time_seconds": "1673329387"
+	}
+}
